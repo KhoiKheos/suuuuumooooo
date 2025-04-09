@@ -1,16 +1,16 @@
 # suuuuumooooo
 # Controll motor via L298n, -> motor_test.h
 
-## 📌 Mô tả
+## 📌 Describe
 Controlling 2 L298n, 4 motor for sumo robot
-## ⚙️ Phần cứng
+## ⚙️ Hardware
 - Arduino Uno
 - 2x L298N
 - 4x DC motor
 - Power: 5V: for stm (blue pill) and signal
 -        12V: for L298n, main power for motor
 
-## 🔌 Sơ đồ chân kết nối
+## 🔌 Connection
 
 | Motor | IN1 | IN2 | ENA |
 |---------|-----|-----|-----|
@@ -19,7 +19,7 @@ Controlling 2 L298n, 4 motor for sumo robot
 | M3      | D8  | D10 | D9  |
 | M4      | D12 | A0  | D11 |
 
-## 🧠 Chức năng
+## 🧠 Test feature
 - Forward 5s
 - Stop 1s
 - Backward 5s
