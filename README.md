@@ -25,9 +25,4 @@ Controlling 2 L298n, 4 motor for sumo robot
 - Backward 5s
 - Stop 1s
 
-## 🧾 Code mẫu
 
-```cpp
-void setup() {
-  pinMode(13, OUTPUT);
-}
